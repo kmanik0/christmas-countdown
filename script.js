@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  const christmas = new Date("December 25, 2025 00:00:00").getTime();
+  const christmas = new Date("December 25, 2026 00:00:00").getTime();
 
   function updateCountdown() {
     const now = new Date().getTime();
